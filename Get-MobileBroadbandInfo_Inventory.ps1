@@ -22,6 +22,8 @@
   MIF -file is created to %windir%\CCM\Inventory\Noidmifs\MobileBroadband.mif
 
 .NOTES
+  Documentation: https://contosoniku.wordpress.com/2016/12/06/a-step-by-step-guide-to-extend-hardware-inventory-in-sccm-for-collecting-sim-iccid/
+
   Version:        1
   Author:         Nicklas Halme
   Creation Date:  15.03.2016
