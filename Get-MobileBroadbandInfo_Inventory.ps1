@@ -94,7 +94,7 @@ If ($get_mbinfo -like "*Mobile Broadband Service (wwansvc) is not running.*") {
 If ($get_mbinfo[1] -like "*There is 1 interface on the system:*") {
     Write-LogEntry "There is 1 interface on the system..." -ForegroundColor Green
     # Read info from specific line and split the line with ':'-delimeter. Trim spaces from the beginning and end of a string.
-    Write-LogEntry "Get Provider Name: Read info from specific line (12) and split the line with ':'-delimeter. Trim spaces from the beginning and end of a string."
+    Write-LogEntry "Get Provider Name: Read info from specific line (16) and split the line with ':'-delimeter. Trim spaces from the beginning and end of a string."
     $ProviderName = $get_mbinfo[16].Split(":")[1].Trim()
     
     Write-LogEntry "Get the content from the 'netsh mbn show read i=*' command."
