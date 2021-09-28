@@ -1,4 +1,6 @@
 # OS Deployment Computer Management
+With this tool you can add computers to MDT Database. You can add one by one, or use a CSV file to add many computers at once.
+You can also remove computers from AD, ConfigMgr and MDT databases. You can remove one by one, or use a CSV file to add many computers at once.
 
 Requirements:
 
