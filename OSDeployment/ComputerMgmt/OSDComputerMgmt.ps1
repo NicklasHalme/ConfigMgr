@@ -1,4 +1,4 @@
-﻿#requires -version 3
+﻿##requires -version 3
 
 <#Requires –Modules ActiveDirectory
 ##Requires -RunAsAdministrator
@@ -71,7 +71,7 @@ $SCCMSiteCode = "NHL"
 #--------------------------------------
 $LogFile = Join-Path -Path $LogPath -ChildPath $LogFileName
 function Write-LogEntry($msg,$ForegroundColor) {
-  If ($ForegroundColor -eq $null) { $ForegroundColor = [System.ConsoleColor]::White }
+  If ($null -eq $ForegroundColor) { $ForegroundColor = [System.ConsoleColor]::White }
   If ((Test-Path $LogPath) -eq $False) { new-item -Path $LogPath -ItemType Directory }
   $LogDate = Get-Date -Format "yyyy-MM-dd HH.MM.ss"
   Write-Host "$LogDate : $msg" -ForegroundColor $ForegroundColor
