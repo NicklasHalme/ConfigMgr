@@ -44,6 +44,7 @@ Declines all updates that have been approved and are superseded by other updates
   Version:        1.2.1
   Author:         Austin Warren
   Creation Date:  2020/07/31
+  Source:         https://github.com/awarre/Optimize-WsusServer/blob/master/Optimize-WsusServer.ps1
 
 .EXAMPLE
   Optimize-WsusServer.ps1 -FirstRun
