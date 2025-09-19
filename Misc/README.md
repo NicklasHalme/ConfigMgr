@@ -1,0 +1,1 @@
+Powershell.exe -Command "iex (gc MyFile.ps1 -raw)"
